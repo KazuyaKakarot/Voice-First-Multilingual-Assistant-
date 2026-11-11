@@ -1,0 +1,14 @@
+data/schemes/imported_*.json
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+*.wav
+*.mp3
+.DS_Store
+# generated at runtime (adjust to your folder names)
+data/qdrant*/
+data/index*/
+.diskcache/

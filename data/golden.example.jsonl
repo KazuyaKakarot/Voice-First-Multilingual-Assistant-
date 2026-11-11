@@ -1,0 +1,7 @@
+# FORMAT EXAMPLE ONLY. Copy to data/golden.jsonl and replace with questions about YOUR scheme files.
+# One JSON object per line. Lines starting with # are ignored.
+# answerable=true  -> needs expected_scheme_ids (the "id" values from data/schemes/*.json) and a short reference_answer
+# answerable=false -> a question your data cannot answer; the system should decline instead of guessing
+{"id": "q001", "question": "Who can apply for the example farmer income scheme?", "answerable": true, "expected_scheme_ids": ["example-farmer-income-scheme"], "reference_answer": "Farmer families that own cultivable land; institutional landholders are excluded."}
+{"id": "q002", "question": "What documents do I need for the example farmer income scheme and how do I apply?", "answerable": true, "expected_scheme_ids": ["example-farmer-income-scheme"], "reference_answer": "Proof of identity, proof of residence and bank account details; apply online or at a service centre."}
+{"id": "q003", "question": "Is there a scheme that pays for a spaceship licence?", "answerable": false, "expected_scheme_ids": [], "reference_answer": ""}

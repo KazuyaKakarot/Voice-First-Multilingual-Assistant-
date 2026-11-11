@@ -1,0 +1,49 @@
+{
+  "language": "en",
+  "question": "I am a farmer in Bihar. Which schemes can I get?",
+  "question_en": "I am a farmer in Bihar. Which schemes can I get?",
+  "image_context": null,
+  "queries": [
+    "Bihar farmer schemes",
+    "agricultural subsidy schemes Bihar"
+  ],
+  "filter_state": "bihar",
+  "answer": "You can apply for the **Aaloo Ke Kufri Chipsona‑1 Prabhed Ke Kshetra Vistaar Yojana** administered by Bihar’s Agriculture Department. The scheme provides certified quality Kufri Chipsona potato seeds and financial assistance to expand the cultivated area and boost processing‑related income【1】. Required documents include Aadhaar (linked to mobile), passport‑size photo, farmer and land details, bank account information, and a land‑ownership/revenue receipt if applicable【2】. Confirm exact eligibility, assistance amounts and application steps on the official website before applying.",
+  "answer_en": "You can apply for the **Aaloo Ke Kufri Chipsona‑1 Prabhed Ke Kshetra Vistaar Yojana** administered by Bihar’s Agriculture Department. The scheme provides certified quality Kufri Chipsona potato seeds and financial assistance to expand the cultivated area and boost processing‑related income【1】. Required documents include Aadhaar (linked to mobile), passport‑size photo, farmer and land details, bank account information, and a land‑ownership/revenue receipt if applicable【2】. Confirm exact eligibility, assistance amounts and application steps on the official website before applying.",
+  "audio_b64": null,
+  "sources": [
+    {
+      "n": 1,
+      "url": "https://www.myscheme.gov.in/schemes/akckvy",
+      "title": "Aaloo Ke Kufri Chipsona-1 Prabhed Ke Kshetra Vistaar Yojana",
+      "section": "about",
+      "verified_at": "2026-10-25"
+    },
+    {
+      "n": 2,
+      "url": "https://www.myscheme.gov.in/schemes/akckvy",
+      "title": "Aaloo Ke Kufri Chipsona-1 Prabhed Ke Kshetra Vistaar Yojana",
+      "section": "documents",
+      "verified_at": "2026-10-25"
+    }
+  ],
+  "trace": [
+    "route: retrieve=True",
+    "rewrite: ['Bihar farmer schemes', 'agricultural subsidy schemes Bihar'] state=bihar",
+    "retrieve: 5 chunks",
+    "grade: 2/5 relevant",
+    "generate: attempt 1",
+    "check: grounded=True"
+  ],
+  "timings_ms": {
+    "agent": 5893,
+    "agent.route": 1036,
+    "agent.rewrite": 892,
+    "agent.retrieve": 281,
+    "agent.grade": 1321,
+    "agent.generate": 1025,
+    "agent.check": 1329
+  },
+  "total_ms": 5893,
+  "notes": []
+}

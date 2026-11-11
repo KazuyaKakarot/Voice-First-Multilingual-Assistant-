@@ -1,0 +1,22 @@
+{
+  "id": "example-farmer-income-scheme",
+  "name": "EXAMPLE: Farmer Income Support Scheme (fictional, delete this file's content when copying)",
+  "level": "central",
+  "state": "all-india",
+  "category": "agriculture",
+  "ministry": "Ministry of Example Affairs",
+  "summary": "One or two sentences on what the scheme is and who it is for, copied or paraphrased from the official page.",
+  "eligibility": [
+    "First eligibility rule, exactly as the official source states it",
+    "Second rule, including any exclusions"
+  ],
+  "benefits": "What the beneficiary receives: amount, frequency, and how it is paid, as stated on the official source.",
+  "documents": [
+    "Proof of identity",
+    "Proof of residence",
+    "Bank account details"
+  ],
+  "how_to_apply": "Online and offline steps, and where to apply, as stated on the official source.",
+  "source_url": "https://example.gov.in/the-official-page-for-this-scheme",
+  "last_verified": "2026-10-25"
+}

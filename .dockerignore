@@ -1,0 +1,10 @@
+.env
+.git
+.venv
+__pycache__/
+*.pyc
+*.zip
+*.wav
+data/llm_cache/
+results/
+last_result.json

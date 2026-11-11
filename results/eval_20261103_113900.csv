@@ -1,0 +1,19 @@
+system,id,question,answerable,answer,hit,rr,correct,faithful,abstained,latency_ms,llm_calls
+naive RAG,q001,Who can apply for the example farmer income scheme?,True,I could not find it.,False,0.0,False,True,True,9,1
+naive RAG,q002,What documents do I need for the example farmer income scheme and how do I apply?,True,"**Documents needed (as listed in the “Agricultural Income Tax Holiday” under the “Assam Tea Industries Special Incentives Scheme”):**  
+
+- Agricultural Income Tax Return Filing Documents  
+- Tea Estate Registration Certificate  
+- Common Documents for All Benefits  
+- Aadhaar Card  
+- Permanent Account Number (PAN) Card  
+- Business Registration Certificate  
+- Bank Account Details  
+- Address Proof of Unit Location in Assam  
+
+**How to apply:**  
+The provided context does not include the application procedure for this particular scheme, so I could not find that information.",False,0.0,False,True,True,28,1
+naive RAG,q003,Is there a scheme that pays for a spaceship licence?,False,I could not find it.,,,,True,True,39,1
+agent,q001,Who can apply for the example farmer income scheme?,True,"The provided context does not include any information about an “example farmer income scheme.” Therefore, I cannot specify who can apply for it. Please refer to the official scheme details for eligibility criteria.",False,0.0,False,True,True,417,5
+agent,q002,What documents do I need for the example farmer income scheme and how do I apply?,True,"The provided context only lists documents and application steps for the Agriculture Engineering (Mechanical) Scheme, not for an “example farmer income scheme.” Therefore, the required documents and application process for that scheme cannot be given from this information. Please refer to the official scheme details for accurate guidance. [1][2]",False,0.0,False,True,True,1939,9
+agent,q003,Is there a scheme that pays for a spaceship licence?,False,I couldn't find reliable information about that in the scheme database. Please check the official scheme website or your nearest common service centre.,,,,True,True,1922,7
